@@ -1,6 +1,7 @@
 
-
 .intel_syntax noprefix
 .global _start
 _start:
-    mov rdi, 0x1337
+    mov rax,rdi
+    mov rdx,0
+    div rsi
